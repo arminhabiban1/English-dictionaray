@@ -73,3 +73,21 @@ body {
   display: flex;
   align-items: center;
 }
+.container ul {
+  list-style: none;
+  margin-top: 5px;
+  font-size: 13px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+.container ul .world h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.container ul .word span {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.container ul .contain {
+  margin-top: 7px;
+}
